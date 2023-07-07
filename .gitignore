@@ -1,5 +1,7 @@
 # workspace
 /workspace/**/*.*
+!/workspace/buildup_christianity_usa/tweets.csv
+!/workspace/buildup_christianity_usa/prompt.txt
 !/workspace/.gitkeep
 # Byte-compiled / optimized / DLL files
 __pycache__/

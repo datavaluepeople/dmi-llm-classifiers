@@ -56,6 +56,19 @@ pip install -r requirements.txt
 ```
 This command will install all the required Python packages specified in the requirements.txt file located in the project's root directory.
 
+### Step 4. Set up open ai api key
+[API keys](https://platform.openai.com/account/api-keys). You will need an account.
+
+With a code editor add you key to `.env` file so that the file looks like:
+```
+export OPENAI_API_KEY="<YOUR_API_KEY>"
+```
+
+In your terminal source the environment variables:
+```
+source .env
+```
+
 Congratulations! You have successfully set up the Python environment, created a virtual environment, and installed the project dependencies.
 
 Additional Resources

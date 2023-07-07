@@ -7,7 +7,20 @@ To get started with the project, please follow the steps below:
 ### Step 1: Setting up Python Environment
 Install pyenv by following the instructions provided in the official [pyenv installation
 guide](https://github.com/pyenv/pyenv#installation).
-Once pyenv is installed, open a new terminal session or restart your current session to load the necessary environment variables.
+Once pyenv is installed, open a new terminal session or restart your current session.
+
+You will then need to install the current version of python for the project.
+Open a terminal and navigate to the root directory of the project.
+```
+pyenv install
+```
+
+Once this is complete check the version:
+```
+cat .python-version
+python --version
+```
+You should see the same python version printed twice.
 
 ### Step 2: Setting up a Python Virtual Environment
 Open a terminal and navigate to the root directory of the project.

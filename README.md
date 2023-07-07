@@ -75,3 +75,15 @@ Additional Resources
 [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 [pip - The Python Package Installer](https://pip.pypa.io/en/stable/)
 [pyenv - Simple Python version management](https://github.com/pyenv/pyenv)
+
+
+## Usage
+Once you have done the "Getting Started" instructions you can start a new session in your terminal
+with the commands:
+```
+source .venv/bin/activate
+source .env
+jupyter-lab
+```
+
+You will then be able to run the notebooks as needed

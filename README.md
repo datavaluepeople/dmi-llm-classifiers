@@ -93,4 +93,8 @@ source .env
 jupyter-lab
 ```
 
-You will then be able to run the notebooks as needed
+The example notebook: `notebooks/chat_completion_for_each_row.ipynb` can be found using the
+left menu. If you run the notebook it will output a new file called
+`workspace/buildup_christianity_usa/output.csv`.
+
+Change the parameters and workspace files as needed.

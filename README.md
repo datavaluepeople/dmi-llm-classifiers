@@ -27,10 +27,12 @@ Open a terminal and navigate to the root directory of the project.
 
 Run the following command to create a new Python virtual environment:
 
-````
+```
 python -m venv .venv
 ```
-This command will create a new directory named .venv in the project's root directory, which will contain all the necessary files for the virtual environment.
+
+This command will create a new directory named .venv in the project's root directory, which will
+contain all the necessary files for the virtual environment.
 
 Activate the virtual environment:
 
@@ -44,7 +46,9 @@ On Windows:
 ```
 .venv\Scripts\activate
 ```
-After activation, you should see (.venv) prefix in your terminal, indicating that the virtual environment is active.
+
+After activation, you should see (.venv) prefix in your terminal, indicating that the virtual
+environment is active.
 
 ### Step 3: Installing Requirements
 Ensure that you have activated the virtual environment as instructed in Step 2.
@@ -54,7 +58,9 @@ Install the project dependencies by running the following command in your termin
 ```bash
 pip install -r requirements.txt
 ```
-This command will install all the required Python packages specified in the requirements.txt file located in the project's root directory.
+
+This command will install all the required Python packages specified in the requirements.txt file
+located in the project's root directory.
 
 ### Step 4. Set up open ai api key
 [API keys](https://platform.openai.com/account/api-keys). You will need an account.
@@ -69,7 +75,8 @@ In your terminal source the environment variables:
 source .env
 ```
 
-Congratulations! You have successfully set up the Python environment, created a virtual environment, and installed the project dependencies.
+Congratulations! You have successfully set up the Python environment, created a virtual
+environment, and installed the project dependencies.
 
 Additional Resources
 [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)

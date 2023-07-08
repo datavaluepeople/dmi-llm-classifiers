@@ -2,3 +2,4 @@ jupyterlab
 langchain
 openai
 pandas
+numpy

@@ -173,6 +173,7 @@ numexpr==2.8.4
     # via langchain
 numpy==1.25.0
     # via
+    #   -r requirements.in
     #   langchain
     #   numexpr
     #   pandas

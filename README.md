@@ -57,10 +57,12 @@ Install the project dependencies by running the following command in your termin
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 This command will install all the required Python packages specified in the requirements.txt file
 located in the project's root directory.
+As well as the source code.
 
 ### Step 4. Set up open ai api key
 [API keys](https://platform.openai.com/account/api-keys). You will need an account.
